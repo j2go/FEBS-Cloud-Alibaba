@@ -49,7 +49,7 @@ services:
       - "9195:9195"
     volumes:
       - /febs/shenyu-bootstrap/logs/:/opt/shenyu-bootstrap/logs
-      - /febs/shenyu-bootstrap/conf/:/opt/shenyu-bootstrap/conf
+      - ./shenyu/bootstrap/conf/:/opt/shenyu-bootstrap/conf
     depends_on:
       - shenyu-admin
     environment:
