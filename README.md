@@ -3,9 +3,10 @@ FEBS-Cloud 使用 Spring Cloud Alibaba 构建的版本
 
 
 mysql 8.0.29 连接注意事项, 可能报错
-DB连接后加可解决 allowPublicKeyRetrieval=true
+DB连接后加 `allowPublicKeyRetrieval=true` 可解决
     
-# 前端项目 https://github.com/febsteam/FEBS-Cloud-Web   
+# 前端项目 
+git clone https://github.com/febsteam/FEBS-Cloud-Web   
 
 node 版本 v14.19.1
 
@@ -58,3 +59,5 @@ deprecate node-sass@4.14.1 › node-gyp@3.8.0 › tar@^2.0.0 This version of tar
 ```
 
 # API 网关  https://shenyu.apache.org/zh/docs/index
+
+# [Dubbo Spring Cloud 示例工程](https://github.com/alibaba/spring-cloud-alibaba/blob/2.2.x/spring-cloud-alibaba-examples/spring-cloud-alibaba-dubbo-examples/README_CN.md)
