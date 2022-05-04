@@ -42,22 +42,6 @@ services:
     depends_on:
       - mysql8
     restart: always
-  shenyu-bootstrap:
-    image: apache/shenyu-bootstrap:2.4.2
-    container_name: shenyu-bootstrap
-    ports:
-      - "9195:9195"
-    volumes:
-      - /febs/shenyu-bootstrap/logs/:/opt/shenyu-bootstrap/logs
-      - ./shenyu/bootstrap/conf/:/opt/shenyu-bootstrap/conf
-    depends_on:
-      - shenyu-admin
-    environment:
-      - shenyu.sync.websocket.urls=ws://shenyu-admin:9095/websocket
-    healthcheck:
-      test: [ "CMD", "wget", "http://shenyu-bootstrap:9195/actuator/health" ]
-      timeout: 2s
-      retries: 30
   shenyu-admin:
     image: apache/shenyu-admin:2.4.2
     container_name: shenyu-admin
