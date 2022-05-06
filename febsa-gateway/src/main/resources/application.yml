@@ -33,7 +33,7 @@ spring:
     nacos:
       discovery:
         server-addr: 127.0.0.1:8848 # Spring Cloud Alibaba Dubbo use this.
-        enabled: true
+        enabled: false
         namespace: ShenyuRegisterCenter
 
 eureka:
