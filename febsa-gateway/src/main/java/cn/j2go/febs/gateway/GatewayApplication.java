@@ -2,7 +2,6 @@ package cn.j2go.febs.gateway;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 import reactor.core.publisher.Mono;
@@ -15,7 +14,7 @@ public class GatewayApplication {
 }
 
 @RestController
-class IndexController{
+class IndexController {
     @GetMapping("/")
     public Mono<String> hello() {
         return Mono.just("Hello Shenyu");

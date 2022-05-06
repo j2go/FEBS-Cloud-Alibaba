@@ -3,3 +3,6 @@
             <artifactId>shenyu-spring-boot-starter-gateway</artifactId>
             <version>${shenyu.version}</version>
         </dependency>
+
+gateway
+gateway123
