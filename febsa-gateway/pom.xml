@@ -14,7 +14,6 @@
     <properties>
         <shenyu.version>2.4.3</shenyu.version>
         <dubbo.version>2.7.15</dubbo.version>
-        <shenyu-spring-boot-starter-gateway.version>2.4.3</shenyu-spring-boot-starter-gateway.version>
     </properties>
 
     <dependencies>

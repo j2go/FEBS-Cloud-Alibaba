@@ -26,12 +26,8 @@
     </licenses>
 
     <properties>
-        <spring-boot.version>2.6.7</spring-boot.version>
-
-        <spring-cloud-alibaba.version>2021.0.1.0</spring-cloud-alibaba.version>
-
-        <spring.cloud.version>2021.0.1</spring.cloud.version>
-
+        <spring-boot.version>2.2.13.RELEASE</spring-boot.version>
+        <spring-cloud-alibaba.version>2.2.7.RELEASE</spring-cloud-alibaba.version>
         <curator.version>4.0.1</curator.version>
 
         <!-- Apache RocketMQ -->
@@ -56,14 +52,6 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-dependencies</artifactId>
                 <version>${spring-boot.version}</version>
-                <type>pom</type>
-                <scope>import</scope>
-            </dependency>
-
-            <dependency>
-                <groupId>org.springframework.cloud</groupId>
-                <artifactId>spring-cloud-dependencies</artifactId>
-                <version>${spring.cloud.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
