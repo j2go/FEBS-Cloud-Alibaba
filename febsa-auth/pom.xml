@@ -42,6 +42,12 @@
             <artifactId>hutool-captcha</artifactId>
             <version>${hutool.version}</version>
         </dependency>
+
+        <dependency>
+            <groupId>org.apache.shenyu</groupId>
+            <artifactId>shenyu-client-springmvc</artifactId>
+            <version>${shenyu.version}</version>
+        </dependency>
     </dependencies>
     <build>
         <finalName>febsa-auth</finalName>

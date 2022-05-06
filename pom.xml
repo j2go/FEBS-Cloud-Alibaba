@@ -47,6 +47,8 @@
         <gmavenplus-plugin.version>1.6</gmavenplus-plugin.version>
         <nacos-config-spring-boot-starter.version>0.2.10</nacos-config-spring-boot-starter.version>
         <hutool.version>5.8.0</hutool.version>
+        <shenyu.version>2.4.3</shenyu.version>
+        <dubbo.version>2.7.15</dubbo.version>
     </properties>
 
     <dependencyManagement>

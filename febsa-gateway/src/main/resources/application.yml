@@ -14,7 +14,7 @@
 # limitations under the License.
 
 server:
-  port: 8001
+  port: 8401
   address: 0.0.0.0
 
 spring:

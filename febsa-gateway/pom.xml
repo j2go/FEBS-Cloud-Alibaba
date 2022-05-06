@@ -11,11 +11,6 @@
 
     <artifactId>febsa-gateway</artifactId>
 
-    <properties>
-        <shenyu.version>2.4.3</shenyu.version>
-        <dubbo.version>2.7.15</dubbo.version>
-    </properties>
-
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
